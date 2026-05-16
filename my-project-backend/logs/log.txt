@@ -5791,3 +5791,109 @@ Caused by: io.lettuce.core.RedisCommandTimeoutException: Command timed out after
 2026-05-16 15:48:05 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
 2026-05-16 15:48:35 [lettuce-eventExecutorLoop-1-7] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
 2026-05-16 15:48:35 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:49:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 15:49:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T15:49:00.004436200，文章总数=3
+2026-05-16 15:49:05 [lettuce-eventExecutorLoop-1-9] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:49:05 [lettuce-nioEventLoop-4-5] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:49:35 [lettuce-eventExecutorLoop-1-11] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:49:35 [lettuce-nioEventLoop-4-6] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:50:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 15:50:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T15:50:00.002069，文章总数=3
+2026-05-16 15:50:05 [lettuce-eventExecutorLoop-1-13] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:50:05 [lettuce-nioEventLoop-4-7] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:50:35 [lettuce-eventExecutorLoop-1-15] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:50:35 [lettuce-nioEventLoop-4-8] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:51:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 15:51:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T15:51:00.003447，文章总数=3
+2026-05-16 15:51:05 [lettuce-eventExecutorLoop-1-16] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:51:05 [lettuce-nioEventLoop-4-9] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:51:35 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:51:35 [lettuce-nioEventLoop-4-10] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:52:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 15:52:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T15:52:00.007984100，文章总数=3
+2026-05-16 15:52:05 [lettuce-eventExecutorLoop-1-5] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:52:05 [lettuce-nioEventLoop-4-11] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:52:35 [lettuce-eventExecutorLoop-1-7] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:52:35 [lettuce-nioEventLoop-4-12] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:53:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 15:53:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T15:53:00.006321700，文章总数=3
+2026-05-16 15:53:06 [lettuce-eventExecutorLoop-1-9] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:53:06 [lettuce-nioEventLoop-4-13] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:53:36 [lettuce-eventExecutorLoop-1-11] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:53:36 [lettuce-nioEventLoop-4-14] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:54:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 15:54:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T15:54:00.002952600，文章总数=3
+2026-05-16 15:54:06 [lettuce-eventExecutorLoop-1-13] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:54:06 [lettuce-nioEventLoop-4-15] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:54:36 [lettuce-eventExecutorLoop-1-15] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:54:36 [lettuce-nioEventLoop-4-16] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:55:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 15:55:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T15:55:00.003942200，文章总数=3
+2026-05-16 15:55:06 [lettuce-eventExecutorLoop-1-16] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:55:06 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:55:36 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:55:36 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:56:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 15:56:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T15:56:00.004426700，文章总数=3
+2026-05-16 15:56:06 [lettuce-eventExecutorLoop-1-5] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:56:06 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:56:36 [lettuce-eventExecutorLoop-1-7] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:56:36 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:57:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 15:57:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T15:57:00.003569900，文章总数=3
+2026-05-16 15:57:06 [lettuce-eventExecutorLoop-1-9] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:57:06 [lettuce-nioEventLoop-4-5] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:57:36 [lettuce-eventExecutorLoop-1-11] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:57:36 [lettuce-nioEventLoop-4-6] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:58:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 15:58:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T15:58:00.002899，文章总数=3
+2026-05-16 15:58:07 [lettuce-eventExecutorLoop-1-13] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:58:07 [lettuce-nioEventLoop-4-7] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:58:37 [lettuce-eventExecutorLoop-1-15] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:58:37 [lettuce-nioEventLoop-4-8] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:59:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 15:59:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T15:59:00.004492300，文章总数=3
+2026-05-16 15:59:07 [lettuce-eventExecutorLoop-1-16] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:59:07 [lettuce-nioEventLoop-4-9] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:59:37 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:59:37 [lettuce-nioEventLoop-4-10] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:00:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 16:00:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T16:00:00.004654200，文章总数=3
+2026-05-16 16:00:07 [lettuce-eventExecutorLoop-1-5] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:00:07 [lettuce-nioEventLoop-4-11] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:00:36 [lettuce-eventExecutorLoop-1-7] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:00:36 [lettuce-nioEventLoop-4-12] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:00:58 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 16:00:58 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T16:00:58.702328800，文章总数=3
+2026-05-16 16:01:06 [lettuce-eventExecutorLoop-1-9] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:01:06 [lettuce-nioEventLoop-4-13] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:01:36 [lettuce-eventExecutorLoop-1-11] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:01:36 [lettuce-nioEventLoop-4-14] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:02:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 16:02:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T16:02:00.003125100，文章总数=3
+2026-05-16 16:02:06 [lettuce-eventExecutorLoop-1-13] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:02:06 [lettuce-nioEventLoop-4-15] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:02:36 [lettuce-eventExecutorLoop-1-15] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:02:36 [lettuce-nioEventLoop-4-16] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:03:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 16:03:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T16:03:00.003399600，文章总数=3
+2026-05-16 16:03:06 [lettuce-eventExecutorLoop-1-16] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:03:06 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:03:36 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:03:36 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:04:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 16:04:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T16:04:00.004838500，文章总数=3
+2026-05-16 16:04:06 [lettuce-eventExecutorLoop-1-5] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:04:06 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:04:37 [lettuce-eventExecutorLoop-1-7] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:04:37 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:05:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 16:05:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T16:05:00.002796，文章总数=3
+2026-05-16 16:05:07 [lettuce-eventExecutorLoop-1-9] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:05:07 [lettuce-nioEventLoop-4-5] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:05:37 [lettuce-eventExecutorLoop-1-11] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:05:37 [lettuce-nioEventLoop-4-6] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 16:06:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 16:06:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T16:06:00.002943500，文章总数=3
+2026-05-16 16:06:07 [lettuce-eventExecutorLoop-1-13] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 16:06:07 [lettuce-nioEventLoop-4-7] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
