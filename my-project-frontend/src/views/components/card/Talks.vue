@@ -167,7 +167,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { ChatDotRound, Star, Share } from '@element-plus/icons-vue'
-import defaultAvatar from '@/assets/avatar.jpg'
+import defaultAvatar from '@/assets/Avatar.jpg'
 import { get, post, del } from '@/net'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import { useUserStore } from '@/stores/user_store'

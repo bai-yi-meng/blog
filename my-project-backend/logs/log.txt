@@ -5785,3 +5785,9 @@ Caused by: io.lettuce.core.RedisCommandTimeoutException: Command timed out after
 2026-05-16 15:47:04 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
 2026-05-16 15:47:34 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
 2026-05-16 15:47:34 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:48:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 开始执行定时任务：更新网站基础信息
+2026-05-16 15:48:00 [scheduling-1] INFO  org.example.task.BaseInfoUpdateTask [reqId:] - 更新基础信息成功：更新时间=2026-05-16T15:48:00.004318，文章总数=3
+2026-05-16 15:48:05 [lettuce-eventExecutorLoop-1-5] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:48:05 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-05-16 15:48:35 [lettuce-eventExecutorLoop-1-7] INFO  i.l.core.protocol.ConnectionWatchdog [reqId:] - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-05-16 15:48:35 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog [reqId:] - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
