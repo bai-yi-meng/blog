@@ -30,7 +30,7 @@
             class="talk-item"
         >
           <div class="talk-header">
-            <el-avatar :src="talk.avatar || defaultAvatar" />
+            <el-avatar :src="talk.Avatar || defaultAvatar" />
             <div class="talk-user-info">
               <span class="talk-username">{{ talk.username }}</span>
               <span class="talk-time">{{ formatTime(talk.createTime) }}</span>
