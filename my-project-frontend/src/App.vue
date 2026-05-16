@@ -89,7 +89,6 @@ import {
 import { logout } from "@/net";
 import { useUserStore } from '@/stores/user_store';
 import { post } from '@/net';
-import { ElMessage } from "element-plus";
 import MusicPlayer from "@/views/components/music/MusicPlayer.vue";
 import { WebSocketConfig } from '@/config/websocket.config';
 const router = useRouter();
@@ -284,15 +283,17 @@ const handleHeaderVisibilityChange = (event: CustomEvent) => {
 
 // 建立WebSocket连接
 const connectWebSocket = () => {
-  // 使用配置类获取WebSocket路径
+  // 仅在本地开发环境尝试连接WebSocket
+  if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+    console.log('非本地环境，跳过WebSocket连接');
+    return;
+  }
   const wsUrl = WebSocketConfig.getWebSocketUrl();
-  console.log(wsUrl)
 
   try {
     websocket.value = new WebSocket(wsUrl);
 
     websocket.value.onopen = () => {
-      ElMessage.success('WebSocket连接已建立')
       console.log('WebSocket连接已建立');
     };
 
@@ -300,15 +301,12 @@ const connectWebSocket = () => {
       const onlineCount = parseInt(event.data);
       if (!isNaN(onlineCount)) {
         currentOnline.value = onlineCount;
-        // 发送全局事件，通知其他组件更新在线人数
         window.dispatchEvent(new CustomEvent('onlineCountUpdate', { detail: onlineCount }));
       }
     };
 
     websocket.value.onclose = () => {
-      ElMessage.error('WebSocket连接已关闭，请刷新当前页面。')
       console.log('WebSocket连接已关闭');
-      // 使用配置类中的重连间隔
       setTimeout(connectWebSocket, WebSocketConfig.RECONNECT_INTERVAL);
     };
 

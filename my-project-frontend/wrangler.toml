@@ -1,0 +1,12 @@
+# ============================================
+# Baiyimeng's Blog - Cloudflare Pages 配置
+# ============================================
+name = "my-project-frontend"
+compatibility_date = "2025-05-16"
+pages_build_output_dir = "dist"
+
+# D1 数据库绑定
+[[d1_databases]]
+binding = "DB"
+database_name = "blog-data"
+database_id = "1424ec4e-1fe1-4f5f-8453-9f9ea8e855a4"
